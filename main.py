@@ -23,6 +23,5 @@ async def main():
     print(message.raw_text)
     await message.reply('Cool!')
 
-
 with bot:
     bot.loop.run_until_complete(main())
