@@ -2,7 +2,7 @@ from telethon.sync import TelegramClient
 
 api_id = 0
 api_hash = ''
-bot_token = ''
+bot_token = 'fuck'
 
 # We have to manually call "start" if we want an explicit bot token
 bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
